@@ -1,0 +1,121 @@
+body {
+    color: #8B7969;
+}
+
+.header {
+    font-family: serif;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    border-bottom: 1px solid #E0DFDE;
+}
+
+.header__inner {
+    padding: 20px 300px;
+}
+
+.header__logo {
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.contact-form__heading {
+    font-family: serif;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.contact-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__group {
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.form__label--required {
+    color: #FF9494;
+}
+
+.form__input--text {
+    justify-content: space-between;
+}
+
+input {
+    color: #BEB1A6;
+}
+
+::placeholder {
+    color: #8B7969;
+}
+
+.radio-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+
+.radio-button:checked {
+    border-color: #8B7969;
+    background-color: #8B7969;
+}
+
+.form__select {
+    width: 330px;
+    height: 38px;
+    border: none;
+    color: #8B7969;
+    background-color: #F4F4F4;
+}
+
+select {
+    width: 330px;
+    height: 38px;
+    border: none;
+    background-color: #F4F4F4;
+}
+
+option {
+    font-size: 14px;
+    color: #BEB1A6;
+}
+
+textarea {
+    font-size: 14px;
+    width: 600px;
+    height: 129px;
+    border: none;
+    background-color: #F4F4F4;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 160px;
+    height: 46px;
+    border: none;
+    border-radius: 1px;
+    background: #82756A;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
