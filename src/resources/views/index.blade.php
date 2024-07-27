@@ -44,15 +44,19 @@
                         <span class="form__label--required">※</span>
                     </div>
                     <div class="form__group-content">
-                        <div class="form__input--radio">
-                            <input class="radio-button" type="radio" name="gender" value="gender" checked />
-                            <label for="gender">男性</label>
-                            <input type="radio" name="gender" value="gender" />
-                            <label for="gender">女性</label>
-                            <input type="radio" name="gender" value="gender"/>
-                            <label for="gender">その他</label>
-                            <div class="form__error"></div>
+                        <div class="form__input--text">
+                            <input id="gender1" class="radio-button" type="radio" name="gender" checked />
+                            <label for="gender1">男性</label>
                         </div>
+                        <div class="form__input--text">
+                            <input id="gender2" class="radio-button" type="radio" name="gender" />
+                            <label for="gender2">女性</label>
+                        </div>
+                        <div class="form__input--text">
+                            <input id="gender3" class="radio-button" type="radio" name="gender" />
+                            <label for="gender3">その他</label>
+                        </div>
+                        <div class="form__error"></div>
                     </div>
                 </div>
                 <div class="form__group">
@@ -76,8 +80,12 @@
                         <div class="form__input--text">
                             <input type="tel" name="tel" placeholder="080" />
                             <span>-</span>
+                        </div>
+                        <div class="form__input--text">
                             <input type="tel" name="tel" placeholder="1234" />
                             <span>-</span>
+                        </div>
+                        <div class="form__input--text">
                             <input type="tel" name="tel" placeholder="5678" />
                         </div>
                         <div class="form__error"></div>

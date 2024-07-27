@@ -48,6 +48,10 @@ body {
     margin-bottom: 15px;
 }
 
+.form__group-content {
+    display: flex;
+}
+
 .form__label--required {
     color: #FF9494;
 }
