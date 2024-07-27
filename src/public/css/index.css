@@ -1,7 +1,3 @@
-body {
-    color: #8B7969;
-}
-
 .header {
     font-family: serif;
     width: 100%;
@@ -17,23 +13,15 @@ body {
 .header__logo {
     text-decoration: none;
     font-size: 40px;
+    color: #8B7969;
 }
 
 .contact-form__heading {
     font-family: serif;
     margin: auto;
-    text-align: center;
-}
-
-.contact-form__content {
-    margin: 0 auto;
-    padding: 30px 15px;
-    max-width: 1230px;
-}
-
-.contact-form__heading {
     margin-bottom: 40px;
     text-align: center;
+    color: #8B7969;
 }
 
 .form {
@@ -45,19 +33,32 @@ body {
 .form__group {
     justify-content: space-between;
     display: flex;
-    margin-bottom: 15px;
+    margin-bottom: 60px;
 }
 
-.form__group-content {
-    display: flex;
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.form__label--item {
+    color: #8B7969;
 }
 
 .form__label--required {
     color: #FF9494;
 }
 
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: below;
+}
+
 .form__input--text {
     justify-content: space-between;
+    color: #8B7969;
 }
 
 input {
@@ -98,17 +99,16 @@ select {
     background-color: #F4F4F4;
 }
 
-option {
-    font-size: 14px;
-    color: #BEB1A6;
+.form__input--option {
+    color: #8B7969;
 }
 
 textarea {
-    font-size: 14px;
     width: 600px;
     height: 129px;
     border: none;
     background-color: #F4F4F4;
+    color: #8B7969;
 }
 
 .form__button-submit {
